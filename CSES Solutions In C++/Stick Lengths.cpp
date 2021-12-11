@@ -2,6 +2,7 @@
  
 using namespace std;
  
+//time: O(n*logn + n)
 int main() {
     ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
     int n; 
@@ -12,6 +13,8 @@ int main() {
     }
     
     sort(a.begin(), a.end());
+ 
+ //making all sticks same as mid indexed sticks
     if(n&1){
         long long cost=0;
         long long x=a[n/2];
