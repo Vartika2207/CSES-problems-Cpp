@@ -2,6 +2,7 @@
 using namespace std;
 typedef long long ll;
 
+// ~O(n + m):not sure for TC
 int main() {
     ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
      int n, m;
